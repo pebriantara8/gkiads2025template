@@ -46,6 +46,13 @@ Table of contents
 
 */
 
+/* manual */
+.text-jadawl-ibadah-title {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
 @import url("../../../fonts.googleapis.com/css2a7ce.css?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap");
 
 /*
@@ -1082,7 +1089,8 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 }
 
 .site-heading {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  margin-bottom: 0px;
   overflow: hidden;
   margin-top: -5px;
 }
