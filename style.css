@@ -148,7 +148,11 @@ Table of contents
 
 /* FOOTER MANUAL */
 .address > ul > li > strong {
-  line-height: 0.6;
+  line-height: 20px;
+}
+.address > ul > li > .text-f {
+  color: #adb5bd;
+  line-height: 20px;
 }
 .link {
   text-align: center;
