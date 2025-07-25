@@ -17,6 +17,15 @@ function discoverClickFunction() {
   });
 }
 
+function contactScrollFunction() {
+  var headerHight = 50;
+  var contentWrapperId = document.getElementById("contactToScrollId");
+  contentWrapperId.style.scrollMarginTop = `${headerHight + 40}px`;
+  contentWrapperId.scrollIntoView({
+    behavior: "smooth",
+  });
+}
+
 (function ($) {
   "use strict";
 

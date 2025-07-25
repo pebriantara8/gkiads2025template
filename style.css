@@ -47,10 +47,111 @@ Table of contents
 */
 
 /* manual */
-.text-jadawl-ibadah-title {
+.text-jadwal-ibadah-title {
   text-decoration: none;
   font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
+
+.mb-jdwal {
+  margin-bottom: 20px;
+}
+.mb-jdwal:last-child {
+  margin-bottom: 0px;
+}
+.row-ads > .single-item {
+  margin-bottom: 10px;
+}
+
+.txt-jdwal-list {
   font-weight: 700;
+  margin-bottom: 0px;
+}
+.txt-jdwal-time {
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+.txt-jdwal-ruang {
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+
+.overlay > h5 {
+  color: white;
+}
+
+.item-kegiatan-home {
+  height: 256px;
+}
+.bg-kegiatan-home {
+  align-items: center;
+  height: 100%;
+  border-radius: 10px;
+  background-position: center center;
+}
+.overlay-kegiatan {
+  border-radius: 10px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.overlay-k {
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.overlay-k > .title-kegiatan-list {
+  margin-bottom: 10px;
+}
+.overlay-k > .title-kegiatan-list > h4 {
+  color: white;
+  margin: 0px;
+  font-weight: 700;
+}
+.waktu-kegiatan-home {
+  margin-bottom: 5px;
+}
+.waktu-kegiatan-home > h5 {
+  margin-bottom: 5px;
+  color: white;
+}
+.contact-kegiatan-home > h5 {
+  color: white;
+  /* margin-bottom: 5px; */
+  margin-top: 10px;
+}
+
+/* SOSIAL MEDIA MANUAL */
+.thumb-social-media {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.info-sosial-media {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cont-sosial-media {
+  margin-bottom: 35px;
+}
+
+/* WARTA */
+.warta-home {
+  text-align: center;
+}
+
+/* FOOTER MANUAL */
+.address > ul > li > strong {
+  line-height: 0.6;
+}
+.link {
+  text-align: center;
 }
 
 @import url("../../../fonts.googleapis.com/css2a7ce.css?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap");
@@ -793,11 +894,7 @@ input {
   content: "";
   height: 100%;
   width: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(59, 207, 147, 1) 0%,
-    rgba(15, 148, 94, 1) 100%
-  );
+  background: linear-gradient(90deg, rgb(111, 68, 68) 0%, rgb(3, 39, 24) 100%);
   transition: all 0.35s ease-in-out;
   z-index: -1;
   box-shadow: 0 0 10px rgba(255, 136, 0, 0.5), inset 0 0 1px 1px #3bcf93;
@@ -6637,7 +6734,8 @@ footer .item {
 
 footer .f-item .widget-title,
 footer .f-item img {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  margin-bottom: 15px;
 }
 
 footer .f-item .widget-title {
@@ -6680,7 +6778,8 @@ footer form button {
 }
 
 footer ul li {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin-top: 0px;
 }
 
 footer ul li:first-child {
@@ -6737,6 +6836,7 @@ footer .f-item .address li span {
 
 footer .f-item .address li {
   margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 footer .f-item .address li strong {
@@ -6748,7 +6848,7 @@ footer.bg-dark .f-item .address li strong {
 }
 
 footer .f-item .address li:first-child {
-  margin-top: 0;
+  margin-top: 25px;
 }
 
 footer .f-item .address li .icon {
@@ -6756,7 +6856,8 @@ footer .f-item .address li .icon {
 }
 
 footer .f-item.about {
-  padding-right: 30px;
+  padding-right: 0px;
+  text-align: right;
 }
 
 footer.bg-dark li a,
@@ -6876,7 +6977,7 @@ footer.bg-dark .footer-bottom a {
 }
 
 .footer-bottom {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer-bottom p a {
