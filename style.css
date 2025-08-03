@@ -79,6 +79,11 @@ Table of contents
 .overlay > h5 {
   color: white;
 }
+.ml-0 {
+  margin-left: 0px;
+}
+
+/* KEGIATAN ELEMENT */
 
 .item-kegiatan-home {
   height: 256px;
@@ -124,6 +129,20 @@ Table of contents
   margin-top: 10px;
 }
 
+.link-contact-kegiatan {
+  color: white;
+}
+.link-contact-kegiatan:hover {
+  color: #3ccf93;
+}
+.kgt-text-ajakan {
+  margin-top: 10px;
+}
+
+.wa-kantor {
+  color: #666666;
+}
+
 /* SOSIAL MEDIA MANUAL */
 .thumb-social-media {
   height: 100px;
@@ -156,6 +175,15 @@ Table of contents
 }
 .link {
   text-align: center;
+}
+
+.qris-box-bt > .qris-text {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: #3bcf93;
+  font-weight: bold;
+  width: 100%;
 }
 
 @import url("../../../fonts.googleapis.com/css2a7ce.css?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap");

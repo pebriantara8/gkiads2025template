@@ -26,6 +26,24 @@ function contactScrollFunction() {
   });
 }
 
+function kegiatanScrollFunction() {
+  var headerHight = 50;
+  var contentWrapperId = document.getElementById("kegiatanToScrollId");
+  contentWrapperId.style.scrollMarginTop = `${headerHight + 40}px`;
+  contentWrapperId.scrollIntoView({
+    behavior: "smooth",
+  });
+}
+
+function wartaScrollFunction() {
+  var headerHight = 50;
+  var contentWrapperId = document.getElementById("wartaToScrollId");
+  contentWrapperId.style.scrollMarginTop = `${headerHight + 40}px`;
+  contentWrapperId.scrollIntoView({
+    behavior: "smooth",
+  });
+}
+
 (function ($) {
   "use strict";
 
